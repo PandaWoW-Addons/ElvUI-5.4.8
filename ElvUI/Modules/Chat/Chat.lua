@@ -1289,7 +1289,7 @@ function CH:ChatFrame_MessageEventHandler(frame, event, arg1, arg2, arg3, arg4, 
 						else
 							if (race == "Pandaren") then
 								selectedIcon = CHANNEL_ICON_NEUTRAL -- TODO
-							elseif (race == "Human" or race == "Dwarf" or race == "NightElf" or race == "Gnome" or race == "Draenei" or race == "Worgen" or race == "WorgenAlt") then
+							elseif (race == "Human" or race == "Dwarf" or race == "NightElf" or race == "Gnome" or race == "Draenei" or race == "Worgen" or race == "WorgenAlt" or race == "VoidElf" or race == "DarkIronDwarf" or race == "LightforgedDraenei" or race == "KulTiran" or race == "Mechagnome") then
 								selectedIcon = CHANNEL_ICON_ALLIANCE
 							else
 								selectedIcon = CHANNEL_ICON_HORDE
